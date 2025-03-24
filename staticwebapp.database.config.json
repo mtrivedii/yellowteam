@@ -1,0 +1,14 @@
+// staticwebapp.database.config.json
+{
+  "databases": {
+    "yellow_sql": {
+      "type": "mssql",
+      "connection": {
+        "authentication": {
+          "type": "managed-identity"
+        },
+        "resourceName": "maanitsql"
+      }
+    }
+  }
+}
